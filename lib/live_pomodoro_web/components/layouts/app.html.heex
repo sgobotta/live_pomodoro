@@ -1,0 +1,28 @@
+<header class="sticky top-0 header-bg z-50">
+  <div>
+    <div class="
+      flex items-center justify-between
+      border-b border-zinc-300 dark:border-zinc-600 border-dotted
+      text-sm
+      backdrop-blur-lg
+    ">
+      <div class="flex flex-row basis-1/2">
+        <div class="flex items-center gap-4 px-2">
+          <a href="#" class="hover:text-zinc-700 hover:dark:text-zinc-300">
+            <%= assigns[:section_title] || gettext("LivePomodoro") %>
+          </a>
+        </div>
+      </div>
+      <div class="flex basis-1/2 justify-end items-center gap-4 font-semibold leading-6 text-zinc-900 dark:text-zinc-100">
+        <.toggle_theme_button theme={@theme} />
+        <a href="" class="hover:text-zinc-700 hover:dark:text-zinc-300"></a>
+      </div>
+    </div>
+  </div>
+</header>
+<main class="px-4 py-2 sm:px-6 lg:px-8">
+  <div class="">
+    <.flash_group flash={@flash} />
+    <%= @inner_content %>
+  </div>
+</main>
