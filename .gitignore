@@ -4,6 +4,9 @@
 # If you run "mix test --cover", coverage assets end up here.
 /cover/
 
+# Coverage
+/coverage/report/
+
 # The directory Mix downloads your dependencies sources to.
 /deps/
 
@@ -27,6 +30,9 @@ live_pomodoro-*.tar
 
 # Ignore assets that are produced by build tools.
 /priv/static/assets/
+/priv/static/favicon-*
+/priv/static/robots-*
+/priv/static/**/*.gz
 
 # Ignore digested assets cache.
 /priv/static/cache_manifest.json
@@ -35,3 +41,6 @@ live_pomodoro-*.tar
 npm-debug.log
 /assets/node_modules/
 
+# Env
+.env
+.env.prod
