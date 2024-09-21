@@ -13,10 +13,10 @@ body {
 .card-bg {
   @apply bg-zinc-100 dark:bg-zinc-700;
 }
-
+/* 
 .input-bg {
   @apply bg-zinc-100 dark:bg-zinc-900;
-}
+} */
 
 .blur-bg {
   @apply bg-sky-200/25 dark:bg-sky-400/25;
@@ -34,6 +34,6 @@ table tbody tr th, table tbody tr td {
   @apply text-gray-500 dark:text-gray-500
 }
 
-input {
-  @apply input-bg border-slate-200 focus:border-slate-200 dark:border-slate-800 dark:focus:border-slate-800 ring-0 !important;
-}
+/* input {
+  @apply border-slate-200 focus:border-slate-200 dark:border-slate-800 dark:focus:border-slate-800 ring-0 !important;
+} */

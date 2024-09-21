@@ -22,6 +22,6 @@ defmodule LivePomodoroWeb.Gettext do
   """
   use Gettext,
     otp_app: :live_pomodoro,
-    default_locale: "es_AR",
+    default_locale: "en",
     allowed_locales: ["en", "es_AR"]
 end

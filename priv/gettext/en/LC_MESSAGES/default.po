@@ -11,22 +11,22 @@ msgstr ""
 "Language: en\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: lib/live_pomodoro_web/components/core_components.ex:482
+#: lib/live_pomodoro_web/components/core_components.ex:546
 #, elixir-autogen, elixir-format
 msgid "Actions"
 msgstr ""
 
-#: lib/live_pomodoro_web/components/core_components.ex:160
+#: lib/live_pomodoro_web/components/core_components.ex:193
 #, elixir-autogen, elixir-format
 msgid "Attempting to reconnect"
 msgstr ""
 
-#: lib/live_pomodoro_web/components/core_components.ex:151
+#: lib/live_pomodoro_web/components/core_components.ex:184
 #, elixir-autogen, elixir-format
 msgid "Error!"
 msgstr ""
 
-#: lib/live_pomodoro_web/components/core_components.ex:172
+#: lib/live_pomodoro_web/components/core_components.ex:205
 #, elixir-autogen, elixir-format
 msgid "Hang in there while we get back on track"
 msgstr ""
@@ -36,23 +36,280 @@ msgstr ""
 msgid "LivePomodoro"
 msgstr ""
 
-#: lib/live_pomodoro_web/components/core_components.ex:167
+#: lib/live_pomodoro_web/components/core_components.ex:200
 #, elixir-autogen, elixir-format
 msgid "Something went wrong!"
 msgstr ""
 
-#: lib/live_pomodoro_web/components/core_components.ex:150
+#: lib/live_pomodoro_web/components/core_components.ex:183
 #, elixir-autogen, elixir-format
 msgid "Success!"
 msgstr ""
 
-#: lib/live_pomodoro_web/components/core_components.ex:155
+#: lib/live_pomodoro_web/components/core_components.ex:188
 #, elixir-autogen, elixir-format
 msgid "We can't find the internet"
 msgstr ""
 
-#: lib/live_pomodoro_web/components/core_components.ex:76
-#: lib/live_pomodoro_web/components/core_components.ex:130
+#: lib/live_pomodoro_web/components/core_components.ex:80
+#: lib/live_pomodoro_web/components/core_components.ex:156
 #, elixir-autogen, elixir-format
 msgid "close"
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_login_live.ex:8
+#, elixir-autogen, elixir-format
+msgid "Log in to account"
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_settings_live.ex:150
+#, elixir-autogen, elixir-format
+msgid "A link to confirm your email change has been sent to the new address."
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_settings_live.ex:9
+#, elixir-autogen, elixir-format
+msgid "Account Settings"
+msgstr ""
+
+#: lib/live_pomodoro_web/controllers/user_session_controller.ex:8
+#, elixir-autogen, elixir-format
+msgid "Account created successfully!"
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_registration_live.ex:13
+#, elixir-autogen, elixir-format
+msgid "Already registered?"
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_settings_live.ex:35
+#, elixir-autogen, elixir-format
+msgid "Change Email"
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_settings_live.ex:78
+#, elixir-autogen, elixir-format
+msgid "Change Password"
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_settings_live.ex:34
+#: lib/live_pomodoro_web/live/user_settings_live.ex:77
+#, elixir-autogen, elixir-format
+msgid "Changing..."
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_confirmation_live.ex:9
+#, elixir-autogen, elixir-format
+msgid "Confirm Account"
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_confirmation_live.ex:15
+#, elixir-autogen, elixir-format
+msgid "Confirm my account"
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_reset_password_live.ex:32
+#: lib/live_pomodoro_web/live/user_settings_live.ex:65
+#, elixir-autogen, elixir-format
+msgid "Confirm new password"
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_confirmation_live.ex:14
+#, elixir-autogen, elixir-format
+msgid "Confirming..."
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_registration_live.ex:47
+#, elixir-autogen, elixir-format
+msgid "Create an account"
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_registration_live.ex:46
+#, elixir-autogen, elixir-format
+msgid "Creating account..."
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_settings_live.ex:29
+#: lib/live_pomodoro_web/live/user_settings_live.ex:71
+#, elixir-autogen, elixir-format
+msgid "Current password"
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_login_live.ex:10
+#, elixir-autogen, elixir-format
+msgid "Don't have an account?"
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_settings_live.ex:97
+#, elixir-autogen, elixir-format
+msgid "Email change link is invalid or it has expired."
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_settings_live.ex:91
+#, elixir-autogen, elixir-format
+msgid "Email changed successfully."
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_forgot_password_live.ex:10
+#: lib/live_pomodoro_web/live/user_login_live.ex:42
+#, elixir-autogen, elixir-format
+msgid "Forgot your password?"
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_confirmation_instructions_live.ex:54
+#, elixir-autogen, elixir-format
+msgid "If your email is in our system and it has not been confirmed yet, you will receive an email with instructions shortly."
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_forgot_password_live.ex:45
+#, elixir-autogen, elixir-format
+msgid "If your email is in our system, you will receive instructions to reset your password shortly."
+msgstr ""
+
+#: lib/live_pomodoro_web/controllers/user_session_controller.ex:32
+#, elixir-autogen, elixir-format
+msgid "Invalid email or password"
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_login_live.ex:39
+#, elixir-autogen, elixir-format
+msgid "Keep me logged in"
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_confirmation_instructions_live.ex:31
+#: lib/live_pomodoro_web/live/user_confirmation_live.ex:22
+#: lib/live_pomodoro_web/live/user_forgot_password_live.ex:26
+#: lib/live_pomodoro_web/live/user_login_live.ex:47
+#: lib/live_pomodoro_web/live/user_registration_live.ex:18
+#: lib/live_pomodoro_web/live/user_reset_password_live.ex:44
+#, elixir-autogen, elixir-format
+msgid "Log in"
+msgstr ""
+
+#: lib/live_pomodoro_web/controllers/user_session_controller.ex:40
+#, elixir-autogen, elixir-format
+msgid "Logged out successfully."
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_login_live.ex:46
+#, elixir-autogen, elixir-format
+msgid "Logging in..."
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_settings_live.ex:11
+#, elixir-autogen, elixir-format
+msgid "Manage your account email address and password settings"
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_reset_password_live.ex:26
+#: lib/live_pomodoro_web/live/user_settings_live.ex:59
+#, elixir-autogen, elixir-format
+msgid "New password"
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_confirmation_instructions_live.ex:10
+#, elixir-autogen, elixir-format
+msgid "No confirmation instructions received?"
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_registration_live.ex:34
+#: lib/live_pomodoro_web/live/user_reset_password_live.ex:20
+#, elixir-autogen, elixir-format
+msgid "Oops, something went wrong! Please check the errors below."
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_login_live.ex:31
+#: lib/live_pomodoro_web/live/user_registration_live.ex:41
+#, elixir-autogen, elixir-format
+msgid "Password"
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_reset_password_live.ex:72
+#, elixir-autogen, elixir-format
+msgid "Password reset successfully."
+msgstr ""
+
+#: lib/live_pomodoro_web/controllers/user_session_controller.ex:14
+#, elixir-autogen, elixir-format
+msgid "Password updated successfully!"
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_confirmation_instructions_live.ex:30
+#: lib/live_pomodoro_web/live/user_confirmation_live.ex:21
+#: lib/live_pomodoro_web/live/user_forgot_password_live.ex:25
+#: lib/live_pomodoro_web/live/user_reset_password_live.ex:43
+#, elixir-autogen, elixir-format
+msgid "Register"
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_registration_live.ex:11
+#, elixir-autogen, elixir-format
+msgid "Register for an account"
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_confirmation_instructions_live.ex:24
+#, elixir-autogen, elixir-format
+msgid "Resend confirmation instructions"
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_reset_password_live.ex:10
+#: lib/live_pomodoro_web/live/user_reset_password_live.ex:37
+#, elixir-autogen, elixir-format
+msgid "Reset Password"
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_reset_password_live.ex:92
+#, elixir-autogen, elixir-format
+msgid "Reset password link is invalid or it has expired."
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_reset_password_live.ex:36
+#, elixir-autogen, elixir-format
+msgid "Resetting..."
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_forgot_password_live.ex:20
+#, elixir-autogen, elixir-format
+msgid "Send password reset instructions"
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_confirmation_instructions_live.ex:23
+#: lib/live_pomodoro_web/live/user_forgot_password_live.ex:19
+#, elixir-autogen, elixir-format
+msgid "Sending..."
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_login_live.ex:15
+#, elixir-autogen, elixir-format
+msgid "Sign up"
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_confirmation_live.ex:58
+#, elixir-autogen, elixir-format
+msgid "User confirmation link is invalid or it has expired."
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_confirmation_instructions_live.ex:12
+#, elixir-autogen, elixir-format
+msgid "We'll send a new confirmation link to your inbox"
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_forgot_password_live.ex:12
+#, elixir-autogen, elixir-format
+msgid "We'll send a password reset link to your inbox"
+msgstr ""
+
+#: lib/live_pomodoro_web/controllers/user_session_controller.ex:18
+#, elixir-autogen, elixir-format
+msgid "Welcome back!"
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_login_live.ex:17
+#, elixir-autogen, elixir-format
+msgid "for an account now."
+msgstr ""
+
+#: lib/live_pomodoro_web/live/user_registration_live.ex:20
+#, elixir-autogen, elixir-format
+msgid "to your account now."
 msgstr ""

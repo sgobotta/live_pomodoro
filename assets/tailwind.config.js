@@ -12,12 +12,22 @@ module.exports = {
     "../lib/live_pomodoro_web/**/*.*ex"
   ],
   darkMode: 'class',
+  important: true,
   theme: {
     extend: {
       colors: {
+        background: "rgba(var(--background))",
+        border: "rgba(var(--border))",
         brand: "#FD4F00",
+        card: "rgba(var(--card))",
+        cta: "rgba(var(--cta))",
+        "cta-active": "rgba(var(--cta-active))",
+        "cta-text": "rgba(var(--cta-text))",
+        grape: "rgba(var(--grape))",
+        primary: "rgba(var(--primary))",
+        secondary: "rgba(var(--secondary))"
       }
-    },
+    }
   },
   plugins: [
     require("@tailwindcss/forms"),

@@ -5,8 +5,6 @@ defmodule LivePomodoroWeb.CustomComponents do
   alias LivePomodoroWeb.CoreComponents
   alias Phoenix.LiveView.JS
 
-  import LivePomodoroWeb.Gettext
-
   @doc """
   Renders a button to toggle the application theme
   """
@@ -15,7 +13,7 @@ defmodule LivePomodoroWeb.CustomComponents do
   def toggle_theme_button(assigns) do
     ~H"""
     <div
-      class="flex items-center gap-4 font-semibold leading-6 text-zinc-900"
+      class="flex items-center gap-4 font-semibold leading-6"
       phx-hook="Theme"
       id="theme-hook"
     >
