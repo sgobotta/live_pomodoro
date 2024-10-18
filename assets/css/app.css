@@ -3,6 +3,32 @@
 @import "tailwindcss/utilities";
 @import "./colors.css";
 
+h1, h2, h3, h4, h5, h6, p {
+  color: rgba(var(--cta-text))
+}
+
+a {
+  color: rgba(var(--cta-text))
+}
+
+input {
+  background: rgba(var(--background)) !important;
+  color: rgba(var(--cta-text));
+}
+
+input[type=checkbox]:checked {
+  color: rgba(var(--secondary)) !important;
+  background: rgba(var(--primary)) !important;
+}
+
+label {
+  color: rgba(var(--cta-text));
+}
+
+button {
+  color: rgba(var(--cta-text));
+}
+
 .light {
   --grape: 114, 35, 204;
 
@@ -18,7 +44,7 @@
   --cta-active: 124, 58, 237;
   --cta-text: 255, 255, 255;
 
-  background: rgba(var(--background))
+  background: rgba(var(--background)) !important;
 }
 
 .dark {
@@ -36,7 +62,7 @@
   --cta-active: 79, 70, 229;
   --cta-text: 255, 255, 255;
 
-  background: rgba(var(--background))
+  background: rgba(var(--background)) !important;
 }
 
 /* This file is for your main application CSS */
